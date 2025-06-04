@@ -9,6 +9,11 @@ export default defineConfig({
     project: "javascript-react"
   })],
 
+  test: {
+    globals: true,
+    environment: 'jsdom',
+  },
+
   build: {
     sourcemap: true
   }
