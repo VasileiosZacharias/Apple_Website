@@ -125,7 +125,7 @@ const VideoCarousel = () => {
     }
   }, [startPlay, videoId, isPlaying, loadedData]);
 
-  // vd id is the id for every video until id becomes number 3
+  // videoId δείχνει ποιο βίντεο παίζει και αυξάνεται έως το τελευταίο (id 3)
   const handleProcess = (type, i) => {
     switch (type) {
       case "video-end":
